@@ -42,6 +42,7 @@ executable omsk-semlot
                        containers,
                        blaze-html,
                        time
+                       --old-locale
 
   hs-source-dirs:      src
 

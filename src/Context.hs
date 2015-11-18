@@ -11,6 +11,7 @@ module Context (
 ) where
 
 import Data.List        (intersperse)
+--import System.Locale
 import Data.Time        (TimeLocale(..))
 import Misc             (aHost,
                          TagsAndAuthors,
@@ -87,7 +88,7 @@ ruTimeLocale =  TimeLocale { wDays  = []
 postContext :: TagsAndAuthors -> Context String
 postContext tagsAndAuthors = mconcat [ constField "host" aHost
                                      , dateFieldWith ruTimeLocale "date" "%d %B %Y"
-                                     , dateFieldWith ruTimeLocale "haskellDate" "%Y %b %d"
+                                     , dateFieldWith ruTimeLocale "haskellDate" "%d %B %Y"
                                      , dateField "issuePubDateInRFC2822" "%a, %_d %b %Y %H:%M:%S +0300"
                                      , quottedTagField "postTags" $ head tagsAndAuthors
                                      , categoryFieldInRussian "postCategory" $ tagsAndAuthors !! 1

@@ -57,7 +57,6 @@ russianNamesOfCategories = M.fromList[ ("algorithms", "Алгоритмы")
                                      , ("typesystem", "Система типов")
                                      , ("utils",      "Утилиты")
                                      , ("web",        "Веб")
-                                     , ("it",         "Информационные технологии")
                                      ]
 
 getRussianNameOfCategory :: String -> String
