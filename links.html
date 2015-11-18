@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content>
+        <meta name="author" content>
+        <link rel="icon" href="./static/images/favicon.ico">
+
+        <title>Ссылки</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+        <link href="./static/css/default.css" rel="stylesheet">
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+        <script>
+          window.___gcfg = {
+            lang: 'ru'
+          };
+        </script>
+
+        <script src="https://apis.google.com/js/platform.js" async defer>
+        </script>
+
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://omsk-semlot.github.io/feed.xml" />
+
+        <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    </head>
+
+  <body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-58217738-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+    <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <div id="logo">
+                <a class="navbar-brand" href="./index.html" title="Домой">
+                  <img alt="Omsk.Semlot" src="./static/images/logo.png" width="60">
+                </a>
+              </div>
+            </div>
+
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Публикации<span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li>
+                        <a href="./archive.html">
+                            <span class="archive-link">
+                                <span class="fa fa-pencil"></span>
+                            </span>Статьи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./tags.html">
+                            <span class="tags-link">
+                                <span class="fa fa-tags"></span>
+                            </span>Теги
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./categories.html">
+                            <span class="categories-link">
+                                <span class="fa fa-star"></span>
+                            </span>Категории
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./authors.html">
+                            <span class="authors-link">
+                                <span class="fa fa-users"></span>
+                            </span>Авторы
+                        </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li><a href="./links.html">Ссылки</a></li>
+              </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Присоединяйтесь!<span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                  <!--
+                    <li>
+                        <a href="https://twitter.com/nlv" target="_blank">
+                            <span id="twitter-link">
+                                <span class="fa fa-twitter-square"></span>
+                            </span>Twitter
+                        </a>
+                    </li>
+                    -->
+                    <li>
+                        <a href="https://github.com/omsk-semlot" target="_blank">
+                            <span id="github-link">
+                                <span class="fa fa-github-square"></span>
+                            </span>GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./feed.xml">
+                            <span id="rss-link">
+                                <span class="fa fa-rss-square"></span>
+                            </span>RSS
+                        </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div id="content">
+            <h1>Ссылки</h1>
+
+<ul id="externalLinks" class="nav nav-tabs custom-tabs" role="tablist">
+    <li role="presentation" class="active">
+        <a href="#mainLinks" id="mainLinksTab" role="tab" data-toggle="tab" aria-controls="mainLinks" aria-expanded="true">Главное
+        </a>
+    </li>
+    
+    <!--
+    <li role="presentation">
+        <a href="#tools" 
+           id="toolsTab" 
+           role="tab" 
+           data-toggle="tab"
+           aria-controls="tools"
+           aria-expanded="true">Инструменты
+        </a>
+    </li>
+
+    <li role="presentation">
+        <a href="#books" 
+           id="booksTab" 
+           role="tab" 
+           data-toggle="tab"
+           aria-controls="books"
+           aria-expanded="true">Книги
+        </a>
+    </li>
+
+    <li role="presentation">
+        <a href="#blogs" 
+           role="tab"
+           id="blogsTab"
+           data-toggle="tab"
+           aria-controls="blogs">Блоги
+        </a>
+    </li>
+
+    <li role="presentation">
+        <a href="#community" 
+           role="tab"
+           id="communityTab"
+           data-toggle="tab"
+           aria-controls="misc">Сообщества
+        </a>
+    </li>
+
+    <li role="presentation">
+        <a href="#misc" 
+           role="tab"
+           id="miscTab"
+           data-toggle="tab"
+           aria-controls="misc">Разное
+        </a>
+    </li>
+    -->
+</ul>
+
+<div id="myTabContent" class="tab-content">
+    <div role="tabpanel" class="tab-pane fade in active" id="mainLinks" aria-labelledBy="mainLinksTab">
+        <a href="http://semlot.ru" target="_blank">semlot.ru</a> &mdash; 
+          официальный сайт Межрегионального общественного движения "Семья, Любовь, Отечество"
+        <div class="links-divider"></div>
+        <a href="http://not-inn.ru" target="_blank">not-inn.ru</a> &mdash; официальный сайт Международного общественного народного движения
+        "За право жить без ИНН, личных кодов и микрочипов"
+          <!--
+        <div class="links-divider"></div>
+        <a href="https://haskell.zeef.com/" target="_blank">Awesome Haskell</a> &mdash; Пополняемый сообществом единый каталог ссылок на библиотеки, tutorials, презентации и доклады по Haskell.
+        <div class="links-divider"></div>
+        <a href="http://www.dohaskell.com/" target="_blank">doHaskell</a> &mdash; Огромный список тематических ссылок на самые разные Haskell-ресурсы. 
+        -->
+    </div>
+    
+    <!--
+    <div role="tabpanel" 
+         class="tab-pane fade"
+         id="tools"
+         aria-labelledBy="toolsTab">
+        <div class="links-group-title">Веб-разработка</div>
+        
+        <div class="links-indent">
+            <a href="http://www.yesodweb.com/" target="_blank">yesodweb.com</a> &mdash; веб-фреймворк.
+            <div class="links-divider"></div>
+            <a href="http://snapframework.com/" target="_blank">snapframework.com</a> &mdash; ещё один веб-фреймворк.
+            <div class="links-divider"></div>
+        </div>
+    </div>
+
+    <div role="tabpanel" 
+         class="tab-pane fade"
+         id="books"
+         aria-labelledBy="booksTab">
+        <div class="links-group-title">О Haskell в целом</div>
+        
+        <div class="links-indent">
+            <a href="http://dmkpress.com/catalog/computer/programming/functional/978-5-97060-038-5/" target="_blank">Изучай Haskell во имя добра!</a> &mdash; книга для "нулевых" новичков.
+            <div class="links-divider"></div>
+            <a href="http://www.piter.com/product/izuchaem-haskell-biblioteka-programmista" target="_blank">Изучаем Haskell</a> &mdash; ещё одна книга для новичков, но уже более продвинутая. Делается больший упор на практику.
+            <div class="links-divider"></div>
+            <a href="http://www.ozon.ru/context/detail/id/19435989/" target="_blank">Жемчужины функционального программирования</a> &mdash;книга с разбором интересных задач и подходов к их решению. 
+            <div class="links-divider"></div>
+            <a href="http://www.ozon.ru/context/detail/id/27292818/" target="_blank">Параллельное и конкурентное программирование на языке Haskel</a> &mdash; полезная книга описывающая как теорию так и практику.
+            <div class="links-divider"></div>
+        </div>
+
+        <div class="links-group-title">Англоязычные книги</div>
+        <div class="links-indent">
+            <a href="http://www.amazon.com/dp/1783286334/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=1AZE8OU3J8416&coliid=I26OEHSCA2INFJ" target="_blank"> Nishant Shukla - Haskell Data Analysis Cookbook</a>
+            <div class="links-divider"></div>
+            <a href="http://www.amazon.com/dp/0201882957/ref=wl_it_dp_o_pC_S_ttl?_encoding=UTF8&colid=1AZE8OU3J8416&coliid=I14LF1K2H72J89" target="_blank">Simon Thompson - Haskell: The Craft of Functional Programming (3rd Edition) (International Computer Science Series)</a>
+            <div class="links-divider"></div>
+            <a href="http://www.amazon.com/dp/1782169431/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=1AZE8OU3J8416&coliid=I3D0VW350U5O1K" target="_blank">Pavel Ryzhov - Haskell Financial Data Modeling and Predictive Analitics</a>
+            <div class="links-divider"></div>
+            <a href="http://www.amazon.com/dp/1107452643/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=1AZE8OU3J8416&coliid=I1MMAZIQ1XJKL1" target="_blank">Richard Bird - Thinking Functionally with Haskell</a>
+        </div>
+    </div>
+    
+    <div role="tabpanel" 
+         class="tab-pane fade"
+         id="blogs"
+         aria-labelledBy="blogsTab">
+        <div class="links-group-title">Англоязычные</div>
+        <div class="links-indent">
+            <a href="http://www.haskellforall.com/" target="_blank">Haskell for all </a> &mdash; весьма интересный и живой блог, целиком посвящённый разработке на Haskell. "Нулевым" новичкам не рекомендуется.
+            <div class="links-divider"></div>
+            <a href="http://jaspervdj.be/" target="_blank">Jasper Van der Jeugt blog</a> &mdash; блог профессионального Haskell-разработчика, создателя блистательного Hakyll.
+            <div class="links-divider"></div>
+            <a href="http://www.well-typed.com/blog/" target="_blank">Well Typed blog</a> &mdash; блог одной из ведущих консультационных фирм.
+        </div>
+    </div>
+
+    <div role="tabpanel"
+         class="tab-pane fade"
+         id="community"
+         aria-labeledBy="communityTab">
+
+        <div class="links-group-title">Русскоязычные</div>
+
+        <div class="links-indent">
+            <a href="http://ruhaskell.org/links.html#community" target="_blank">Русскоязычное сообщество Haskell-разработчиков</a> &larr; вы находитесь здесь
+            <div class="links-divider"></div>
+            Livejornal <a href="http://ru-lambda.livejournal.com/" target="_blank">ru_lambda</a>
+            <div class="links-divider" target="_blank"></div>
+            Juick.com <a href="http://juick.com/tag/Haskell" target="_blank">по тегу Haskell</a>
+            <div class="links-divider" target="_blank"></div>
+            Агрегатор новостей <a href="http://fprog.ru/planet/" target="_blank">Lambda Planet</a>
+            <div class="links-divider"></div>
+            Хабрахабр <a href="http://habrahabr.ru/hub/Haskell/" target="_blank">hub: Haskell</a>
+        </div>
+        
+        <div class="links-group-title">Англоязычные</div>
+        <div class="links-indent">
+        Список рассылки <a href="https://www.haskell.org/pipermail/haskell-cafe/" target="_blank">haskell-cafe</a> &mdash; всевозможные вопросы, очень высокий уровень ответов.
+        <div class="links-divider"></div>
+        Список рассылки <a href="https://www.haskell.org/pipermail/haskell-beginners/" target="_blank">haskell-beginners</a> &mdash; список рассылки рекомендованный для новичков, в котором готовы очень подробно объяснить решение.
+        </div>
+    </div>
+
+    <div role="tabpanel" 
+         class="tab-pane fade"
+         id="misc"
+         aria-labelledBy="miscTab">
+        <div class="links-group-title">Поиск по Haskell API</div>
+        
+        <div class="links-indent">
+            <a href="https://www.haskell.org/hoogle/" target="_blank">Hoogle</a> &mdash; а-ля Google для поиска по Haskell API.
+            <div class="links-divider"></div>
+            <a href="http://hayoo.fh-wedel.de/" target="_blank">Hayoo!</a> &mdash; а-ля Yahoo! для поиска там же.
+            <div class="links-divider"></div>
+        </div>
+    </div>
+    -->
+</div>
+
+
+
+        </div>
+
+        <div id="searchForm">
+            <script>
+              (function() {
+                var cx = '006700466576187355720:xu5uivh_c9c';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                    '//cse.google.com/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+              })();
+            </script>
+            <gcse:search></gcse:search>
+        </div>
+
+        <footer class="footer">
+            Сайт работает на <strong><a href="http://jaspervdj.be/hakyll/" target="_blank">Hakyll</a></strong> и живёт на <strong><a href="https://github.com/omsk-semlot/omsk-semlot.github.io" target="_blank">GitHub</a></strong>.
+            <div class="stargaze">
+                <a data-count-api="/repos/omsk-semlot/omsk-semlot.github.io#stargazers_count" data-count-href="/omsk-semlot/omsk-semlot.github.io/stargazers" data-icon="octicon-star" href="https://github.com/omsk-semlot/omsk-semlot.github.io" class="github-button">Star</a>
+
+                <span style="padding-left: 20px;"></span>
+
+                <a data-count-api="/repos/omsk-semlot/omsk-semlot.github.io#forks_count" data-count-href="/omsk-semlot/omsk-semlot.github.io/network" data-icon="octicon-git-branch" href="https://github.com/omsk-semlot/omsk-semlot.github.io" class="github-button">Fork</a>
+            </div>
+
+            <div class="copyright-note">
+                Исходный код данного сайта, а также все опубликованные на нём материалы распространяются на условиях <a href="https://github.com/omsk-semlot/omsk-semlot.github.io/blob/master/LICENSE" target="_blank">свободной лицензии GNU GENERAL PUBLIC LICENSE</a>.
+            </div>
+        </footer>
+    </div>
+
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//omsk-semlot.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+  </body>
+</html>
