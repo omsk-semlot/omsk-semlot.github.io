@@ -2,18 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
-        <title>omsk-semlot</title>
-        <link>http://omsk-semlot.github.io</link>
-        <description><![CDATA[Официальный сайт Омского отделения Межрегионального движения "Семья, любовь, Отечество"]]></description>
-        <atom:link href="http://omsk-semlot.github.io/feed.xml" rel="self"
+        <title>nlv</title>
+        <link>http://nlv.github.io/blog</link>
+        <description><![CDATA[Личный блог Никитина Льва (Омск)]]></description>
+        <atom:link href="http://nlv.github.io/blog/feed.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Mon, 24 Aug 2015 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Oct 2015 00:00:00 UT</lastBuildDate>
         <item>
-    <title>Дорогу осилит идущий</title>
-    <link>http://omsk-semlot.github.io/posts/events/2015/08/24/meetup-2015-summer.html</link>
-    <description><![CDATA[Омское отделение движения «Семья, любовь, Отечество» провело собрание на тему информационной безопасности граждан]]></description>
-    <pubDate>Mon, 24 Aug 2015 00:00:00 UT</pubDate>
-    <guid>http://omsk-semlot.github.io/posts/events/2015/08/24/meetup-2015-summer.html</guid>
+    <title>Способы внесения простых правок в PDF документы</title>
+    <link>http://nlv.github.io/blog/posts/it/2015/10/23/pdfmod.html</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Fri, 23 Oct 2015 00:00:00 UT</pubDate>
+    <guid>http://nlv.github.io/blog/posts/it/2015/10/23/pdfmod.html</guid>
+    <dc:creator>Никитин Лев</dc:creator>
+</item>
+<item>
+    <title>Утилиты конвертирования и видеомонтажа под linux</title>
+    <link>http://nlv.github.io/blog/posts/it/2015/10/17/videoconvert-linux.html</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Sat, 17 Oct 2015 00:00:00 UT</pubDate>
+    <guid>http://nlv.github.io/blog/posts/it/2015/10/17/videoconvert-linux.html</guid>
     <dc:creator>Никитин Лев</dc:creator>
 </item>
 

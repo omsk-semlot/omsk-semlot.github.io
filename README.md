@@ -1,2 +1,1 @@
-# omsk-semlot.github.io
-Official site of Semlot Omsk
+# Мой личный блог
