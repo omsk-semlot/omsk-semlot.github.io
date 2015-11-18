@@ -29,7 +29,7 @@
         <script src="https://apis.google.com/js/platform.js" async defer>
         </script>
 
-        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://nlv.github.io/blog/feed.xml" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://omsk-semlot.github.io/feed.xml" />
 
         <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
     </head>
@@ -58,8 +58,8 @@
               </button>
 
               <div id="logo">
-                <a class="navbar-brand" href="./" title="Домой">
-                  Личный блог
+                <a class="navbar-brand" href="./index.html" title="Домой">
+                  <img alt="Omsk.Semlot" src="./static/images/logo.png" width="60">
                 </a>
               </div>
             </div>
@@ -109,6 +109,7 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Присоединяйтесь!<span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu" role="menu">
+                  <!--
                     <li>
                         <a href="https://twitter.com/nlv" target="_blank">
                             <span id="twitter-link">
@@ -116,8 +117,9 @@
                             </span>Twitter
                         </a>
                     </li>
+                    -->
                     <li>
-                        <a href="https://github.com/nlv" target="_blank">
+                        <a href="https://github.com/omsk-semlot" target="_blank">
                             <span id="github-link">
                                 <span class="fa fa-github-square"></span>
                             </span>GitHub
@@ -177,17 +179,17 @@ document.getElementById("forum_embed").src =
         </div>
 
         <footer class="footer">
-            Сайт работает на <strong><a href="http://jaspervdj.be/hakyll/" target="_blank">Hakyll</a></strong> и живёт на <strong><a href="https://github.com/nlv/blog" target="_blank">GitHub</a></strong>.
+            Сайт работает на <strong><a href="http://jaspervdj.be/hakyll/" target="_blank">Hakyll</a></strong> и живёт на <strong><a href="https://github.com/omsk-semlot/omsk-semlot.github.io" target="_blank">GitHub</a></strong>.
             <div class="stargaze">
-                <a data-count-api="/repos/nlv/blog#stargazers_count" data-count-href="/nlv/blog/stargazers" data-icon="octicon-star" href="https://github.com/nlv/blog" class="github-button">Star</a>
+                <a data-count-api="/repos/omsk-semlot/omsk-semlot.github.io#stargazers_count" data-count-href="/omsk-semlot/omsk-semlot.github.io/stargazers" data-icon="octicon-star" href="https://github.com/omsk-semlot/omsk-semlot.github.io" class="github-button">Star</a>
 
                 <span style="padding-left: 20px;"></span>
 
-                <a data-count-api="/repos/nlv/blog#forks_count" data-count-href="/nlv/blog/network" data-icon="octicon-git-branch" href="https://github.com/nlv/blog" class="github-button">Fork</a>
+                <a data-count-api="/repos/omsk-semlot/omsk-semlot.github.io#forks_count" data-count-href="/omsk-semlot/omsk-semlot.github.io/network" data-icon="octicon-git-branch" href="https://github.com/omsk-semlot/omsk-semlot.github.io" class="github-button">Fork</a>
             </div>
 
             <div class="copyright-note">
-                Исходный код данного сайта, а также все опубликованные на нём материалы распространяются на условиях <a href="https://github.com/nlv/blog/blob/master/LICENSE" target="_blank">свободной лицензии MIT</a>.
+                Исходный код данного сайта, а также все опубликованные на нём материалы распространяются на условиях <a href="https://github.com/omsk-semlot/omsk-semlot.github.io/blob/master/LICENSE" target="_blank">свободной лицензии GNU GENERAL PUBLIC LICENSE</a>.
             </div>
         </footer>
     </div>
@@ -206,7 +208,7 @@ document.getElementById("forum_embed").src =
     (function() {  // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
         
-        s.src = '//nlvblog.disqus.com/embed.js';
+        s.src = '//omsk-semlot.disqus.com/embed.js';
         
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
