@@ -339,14 +339,18 @@ a:hover {
 
 .gsc-control-cse {
     font-family: Arial, sans-serif;
+    /*
     border-color: #f5f3ee !important;
     background-color: #f5f3ee !important;
+    */
 }
 
+    /*
 div#searchForm {
     text-align: center !important;
     padding-top: 40px;
 }
+    */
 
 
 /* Hscolour. Solarized palette */
