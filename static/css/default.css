@@ -198,9 +198,11 @@ div#header #navigation a:hover {
 
 .footer {
     text-align: center;
+    margin-top: 30px;
     padding-top: 30px;
     padding-bottom: 50px;
     font-size: 14px;
+    background: lightgray;
 }
 
 div#social {
@@ -284,12 +286,16 @@ h3 {
     margin-right: 15px;
 }
 
+.post-info-div {
+    background: wheat;
+    margin-bottom: 30px;
+}
+
 .post-info {
-    color: #777;
+    color: #777; 
     font-size: 16px;
     font-family: 'Ubuntu Mono', monospace;
     text-align: left;
-    padding-bottom: 40px;
 }
 
 .post-list {
