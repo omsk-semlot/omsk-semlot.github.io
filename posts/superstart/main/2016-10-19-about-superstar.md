@@ -1,9 +1,12 @@
 ---
 author: Пресс-служба МОД "Семья, Любовь, Отечество"
-title: Сделать всё, что в твоих силах
-tags: УЭК, Электронные паспорта, Сбор персональных данных, Патриарх Кирилл, РПЦ
-description: Вновь созданное Омское отделение общественного движения «Семья, любовь, Отечество» провело своё первое мероприятие
+title: Про рок-оперу
+heading: Рок-опера
+subheading: Хроника 2016 года
+tags: Рок-опера, Культура, Театр
+description: Это общая статья про рок-оперу
 hrefToOriginal: http://semlot.ru/glavnaya/novosti-dvizheniya/5222-sdelat-vsjo-chto-v-tvoikh-silakh
+logoimage: /files/picket-2015-summer/picket-2015-summer-1.jpg
 ---
 
 <div class="col-xs-8 col-sm-8 col-md-4 col-lg-4 pull-right">

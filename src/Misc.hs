@@ -44,6 +44,9 @@ getNameOfAuthor identifier = do
 russianNamesOfCategories :: M.Map String String
 russianNamesOfCategories = M.fromList[ ("global", "Глобализация")
                                      , ("juvenal", "Ювенальная Юстиция")
+                                     , ("superstar", "Отмена рок-оперы")
+                                     , ("superstar/main", "Про рок-оперу")
+                                     , ("superstar/2015", "2015")
                                      ]
 
 getRussianNameOfCategory :: String -> String
